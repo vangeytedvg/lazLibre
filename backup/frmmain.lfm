@@ -1,0 +1,28 @@
+object MainForm: TMainForm
+  Left = 257
+  Height = 169
+  Top = 132
+  Width = 279
+  Caption = 'MainForm'
+  ClientHeight = 169
+  ClientWidth = 279
+  LCLVersion = '2.2.6.0'
+  object btnCreateLibreDoc: TButton
+    Left = 48
+    Height = 25
+    Top = 24
+    Width = 187
+    Caption = 'Create Libreoffice Document'
+    OnClick = btnCreateLibreDocClick
+    TabOrder = 0
+  end
+  object btnReport: TButton
+    Left = 48
+    Height = 25
+    Top = 64
+    Width = 184
+    Caption = 'Open a report'
+    OnClick = btnReportClick
+    TabOrder = 1
+  end
+end
