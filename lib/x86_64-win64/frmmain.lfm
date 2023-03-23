@@ -1,10 +1,10 @@
 object MainForm: TMainForm
-  Left = 257
-  Height = 169
-  Top = 132
+  Left = 272
+  Height = 204
+  Top = 189
   Width = 279
   Caption = 'MainForm'
-  ClientHeight = 169
+  ClientHeight = 204
   ClientWidth = 279
   LCLVersion = '2.2.6.0'
   object btnCreateLibreDoc: TButton
@@ -24,5 +24,23 @@ object MainForm: TMainForm
     Caption = 'Open a report'
     OnClick = btnReportClick
     TabOrder = 1
+  end
+  object btnInsertTextAndNewLine: TButton
+    Left = 48
+    Height = 25
+    Top = 104
+    Width = 184
+    Caption = 'Insert Newlines'
+    OnClick = btnInsertTextAndNewLineClick
+    TabOrder = 2
+  end
+  object btnGotoLine: TButton
+    Left = 47
+    Height = 24
+    Top = 144
+    Width = 188
+    Caption = 'Move cursor to a given line'
+    OnClick = btnGotoLineClick
+    TabOrder = 3
   end
 end
