@@ -184,7 +184,7 @@ begin
 
   Cursor_ := Text_.createTextCursorByRange(oVC);
   oVC.JumpToStartOfPage;
-  Cursor_.gotoRange(oVC, true);
+//  Cursor_.gotoRange(oVC, true);
   oVC.goDown(8, false);
 //  Cursor_.gotoRange(ovc, false);
 //  Cursor_.gotoPreviousWord(true);

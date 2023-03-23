@@ -185,7 +185,7 @@ begin
   Cursor_ := Text_.createTextCursorByRange(oVC);
   oVC.JumpToStartOfPage;
   Cursor_.gotoRange(oVC, true);
-  oVC.goDown(20, false);
+  oVC.goDown(8, false);
 //  Cursor_.gotoRange(ovc, false);
 //  Cursor_.gotoPreviousWord(true);
   Text_.insertString(oVC.getStart(), 'JWAAAAJ', False);
